@@ -1,6 +1,5 @@
 <script setup lang="ts">
-/* eslint-disable prettier/prettier */
-import { computed, PropType } from 'vue'
+import { computed, PropType, defineProps } from 'vue'
 import type {
   DataTableRows,
   DataTableColumns,
